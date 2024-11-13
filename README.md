@@ -6,14 +6,14 @@ This repository contains a Jupyter Notebook used for building and evaluating a c
 This project aims to classify individuals based on census income data using a machine learning model. 
 The classification is intended to predict whether an individual's income is above or below a certain threshold, based on various demographic and employment features.
 
-# Dataset
+## Dataset
 The dataset used in this project is a census income dataset. This notebook processes and trains on a dataset with the following main attributes:
 
 Demographic Attributes: Age, education, gender, etc.
 Employment Attributes: Workclass, occupation, etc.
 Geographic Attributes: Native country, etc.
 
-# Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps are performed in the notebook:
 
@@ -24,11 +24,11 @@ Rows with these values are removed to clean the data.
 
 Data Splitting: The data is divided into training and testing sets for model training and evaluation.
 
-# Modeling
+## Modeling
 The models used for classification are Decision Tree Classifier and Random Forest Classifier, chosen for their robustness and ability to handle a wide range of features. 
 The models were trained on the cleaned dataset to classify individuals based on the provided attributes.
 
-# Evaluation
+## Evaluation
 After training, the model is evaluated using a classification report to analyze the accuracy, precision, recall, and F1 score. 
 The following metrics are calculated:
 
