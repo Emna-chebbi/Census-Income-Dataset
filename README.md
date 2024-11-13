@@ -2,7 +2,7 @@
 
 This repository contains a Jupyter Notebook used for building and evaluating a classification model on census income data. The notebook demonstrates steps for data preprocessing, model training with a Decision Tree Classifier, Random Forest Classifier, and model evaluation.
 
-# Overview
+## Overview
 This project aims to classify individuals based on census income data using a machine learning model. 
 The classification is intended to predict whether an individual's income is above or below a certain threshold, based on various demographic and employment features.
 
